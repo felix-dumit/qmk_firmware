@@ -8,4 +8,5 @@ SRC += side.c
 SRC += rf.c
 SRC += sleep.c
 SRC += side_driver.c
+SRC += features/achordion.c
 QUANTUM_LIB_SRC += uart.c
