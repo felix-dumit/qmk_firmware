@@ -697,7 +697,7 @@ bool rgb_matrix_indicators_user(void)
 }
 
 /* qmk keyboard post init */
-void keyboard_post_init_user(void) {
+void keyboard_post_init_kb(void) {
     gpio_init();
     rf_uart_init();
     wait_ms(500);
